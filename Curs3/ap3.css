@@ -1,8 +1,25 @@
-div{
-    border: 5px red solid;
-    margin: 20px;
-    padding: 15px;
+body, html{
+    background-image: url("1.jpg");
     width: 100%;
-    max-width: 300px;
-    float: left;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+
+div{
+    position: relative;
+    z-index: 1000;
+    border: 5px red solid;
+    margin: 20px auto;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 33%;
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+    font-size: 10px;
+    
+}
+p{
+    font-size: 2em;
 }
